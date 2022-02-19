@@ -1,1 +1,1 @@
-# my-drop-columns-script-file-and-rother-related
+# my-drop-columns-script-file-and-other-related
