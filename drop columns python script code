@@ -1,0 +1,13 @@
+import pandas as pd
+dataset = pd.read_excel("compilations.xlsx")
+dataset
+dataset = dataset.drop(columns="WORTH")
+dataset
+dataset["LIST OF FOOTBALL TEAMS"]= "Chelsea","Manchester City","Liverpool","Arsenal","West Ham"
+dataset
+#dataset = dataset.drop(columns="New_Column")
+#dataset
+dataset_new = dataset.copy()
+dataset_new
+dataset_new["New_Column"]= 1 #This can be any information
+dataset_new
